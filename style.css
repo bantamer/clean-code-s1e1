@@ -54,7 +54,7 @@ input,button{
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -64,13 +64,13 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 
 /* Heading */
 h3,
-label[for="new-task"] {
+.h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -107,7 +107,7 @@ input#new-task {
   width: 318px;
 }
 
-p > button:hover {
+div button:hover {
   color: #0FC57C;
 }
 
@@ -141,9 +141,6 @@ li >    input[type="text"] {
   width: 226px
 }
 
-li > button.delete:hover {
-  color: #CF2323;
-}
 
 button.delete img {
   height: 2em;
